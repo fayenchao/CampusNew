@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true">
+
+    <RelativeLayout
+        android:id="@+id/layBottomBar"
+        android:layout_width="match_parent"
+    	android:layout_height="60dp"
+    	android:background="@drawable/bg_bottombar">
+    	
+    <ImageView
+        android:id="@+id/icon_lancher"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/description"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon_lancher"
+        android:padding="5dp"
+        android:text="@string/WellcomInfo"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:paddingTop="5dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/description"
+        android:src="@drawable/icon_bottom_home" /> 
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layBottomListViewBar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layBottomBar">  
+        <ListView 
+            android:id="@+id/lvSlidList"
+			style="@style/StyleListView"/>
+        </LinearLayout>
+
+</RelativeLayout>

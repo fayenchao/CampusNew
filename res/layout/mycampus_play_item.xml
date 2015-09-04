@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp" >
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tvMycampusPlayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/violet"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tvMycampusPlayTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMycampusPlayTitle"
+        android:textColor="@color/royalblue"
+        android:textSize="14sp" />
+
+</RelativeLayout>

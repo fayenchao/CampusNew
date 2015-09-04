@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main" >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+			android:text="@string/librarytext1"
+			android:layout_marginLeft="26dp"
+			android:textSize="18sp"
+			android:textColor="@color/violet"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+			android:text="@string/librarytext2"
+			android:layout_marginRight="30dp"
+			android:layout_alignParentRight="true"
+			android:textSize="18sp"
+			android:textColor="@color/violet"
+            />
+    </RelativeLayout>
+    <ListView
+        android:layout_margin="10dp"
+        android:id="@+id/lvPhoneResult"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"	    
+	    android:cacheColorHint="#00000000"
+	    android:divider="#bc64a4"
+	    android:dividerHeight="2dp"
+	    android:fastScrollEnabled="true"
+        />
+</LinearLayout>

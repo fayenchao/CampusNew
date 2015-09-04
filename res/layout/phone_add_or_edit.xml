@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical" >
+
+    <TextView
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/main_phone"
+        android:gravity="center"
+        android:text="@string/add_phone_title"
+        android:textColor="@color/violet"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:orientation="horizontal" >
+	    <TextView
+	        android:layout_marginLeft="5dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="4"
+	    	android:text="@string/add_phone_name"
+	    	android:textSize="16sp" 
+	    	android:textColor="@color/violet"
+	        />
+	    <EditText
+            android:id="@+id/add_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:hint="" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	     android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:orientation="horizontal" >
+	    <TextView
+	        android:layout_marginLeft="5dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="4"
+	    	android:text="@string/add_phone_phones"
+	    	android:textSize="16sp" 
+	    	android:textColor="@color/violet"
+	        />
+	    <EditText
+	        android:id="@+id/add_phones"
+	        android:inputType="phone"
+	        android:layout_marginRight="10dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"
+	        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	     android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:orientation="horizontal" >
+	    <TextView
+	        android:layout_marginLeft="5dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="4"
+	    	android:text="@string/add_phone_type"
+	    	android:textSize="16sp" 
+	    	android:textColor="@color/violet"
+	        />
+	    <EditText
+	        android:hint=""
+	        android:id="@+id/add_type"	        
+	        android:layout_marginRight="10dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"
+	        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	     android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:orientation="horizontal" >
+	    <TextView
+	        android:layout_marginLeft="5dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="4"
+	    	android:text="@string/add_phone_keyword"
+	    	android:textSize="16sp" 
+	    	android:textColor="@color/violet"
+	        />
+	    <EditText
+	        android:hint="@string/PhoneTextviewHite"
+	        android:id="@+id/add_keyword"
+	        android:layout_marginRight="10dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"
+	        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_marginTop="30dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	     android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/add_btn_ok"
+	        android:layout_marginLeft="10dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="40dp"
+	    	android:layout_weight="1"
+	    	android:text="@string/add_btn_ok"
+	    	android:textSize="16sp" 
+	    	android:textColor="@color/violet"
+	    	android:background="@drawable/btn_phone"
+	        />
+	    <Button
+	        android:id="@+id/add_btn_exit"
+	        android:layout_marginRight="10dp"
+	        android:layout_width="match_parent"
+	    	android:layout_height="40dp"
+	    	android:layout_weight="1"
+	    	android:text="@string/add_btn_quit"
+	    	android:textSize="16sp"
+	    	android:textColor="@color/violet" 
+	    	android:background="@drawable/btn_phone"
+	        />
+    </LinearLayout>
+</LinearLayout>

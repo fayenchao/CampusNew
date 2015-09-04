@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">西邮校园通</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">weichun</string>
+    <string name="ButtonTextYes">是</string>
+    <string name="ButtonTextNo">否</string>
+    <string name="ButtonTextQuery">查询</string>
+    <string name="ButtonTextDescription">请输入号码或类别</string>
+    <string name="tvTitleBar">2014&#8211;4&#8211;15&#160;&#160;第10周&#160;&#160;第4节</string>
+    <string name="WellcomInfo">欢迎 您使用西邮校园通！</string>
+
+    <!-- 主界面button -->
+    <string name="appGridTextaCampus">大学简介</string>
+    <string name="appGridTextLibrary">图书馆</string>
+    <string name="appGridTextLife">我的地盘</string>
+    <string name="appGridTextMaps">校园地图</string>
+    <string name="appGridTextNews">校内新闻</string>
+    <string name="appGridTextPhone">号码百事通</string>
+    <string name="PhoneTextviewHite">可为空，默认姓名+电话</string>
+    <string name="add_phone_title">添加新号码</string>
+    <string name="add_phone_name">姓名：</string>
+    <string name="add_phone_phones">电话：</string>
+    <string name="add_phone_type">分类：</string>
+    <string name="add_phone_keyword">关字：</string>
+    <string name="add_btn_ok">确定</string>
+    <string name="add_btn_quit">重置</string>
+    <string name="ActivityTitlePhone">号码百事通</string>
+    <string name="ActivityTitleNews">校内新闻</string>
+    <string name="ActivityTitleLife">我的地盘</string>
+    <string name="ActivityTitleLibrary">图书馆</string>
+    <string name="ActivityTitleCampus">大学简介</string>
+    <string name="librarybutton1">书刊检索</string>
+    <string name="librarybutton2">图书续借</string>
+    <string name="librarybutton3">成绩查询</string>
+    <string name="librarytext1">电话类别</string>
+    <string name="librarytext2">电话号码</string>
+
+    <!-- library注册界面 -->
+    <string name="library_name">帐号</string>
+    <string name="library_password">密码</string>
+    <string name="login_btn">确定</string>
+    <string name="exit_btn">取消</string>
+    <string name="checkbox">记住密码</string>
+    <string name="bookQuery">输入你要检索的书名</string>
+    <string name="bookTextYes">确定</string>
+    <string name="xiyou">&#160;&#160;&#160;&#160;西安邮电大学是原信息产业部直属，现由陕西省人民政府与工业和信息化部共建，陕西省人民政府管理为主的高等院校，是一所以工为主，以信息科学技术为特色，工、理、经、管、文、法多学科协调发展的普通高等院校。学院新、老校区分别坐落于西安市长安区韦郭路和雁塔区长安南路，交通方便，景色秀丽。2006年学院被中共陕西省委、陕西省人民政府授予陕西省“文明校园”称号，2007年荣获省级“依法治校示范校”称号。学院是中国人民解放军后备军官培养选拔基地。
+                  学院在校硕士研究生、本科生、高职生等共计15045人，设有研究生部、电子与信息工程系、通信工程系、计算机科学与技术系、信息与控制系、应用数学与物理系、信息与管理工程系、经济管理系、经济与贸易系、社会科学系、外语系 10 个系以及继续教育学院、职业技术学院和体育部、信息中心等教学机构。有 3 个一级学科硕士授权点、11 个二级学科硕士授权点，37 个本科专业，13 个三年制专科专业；3个省部级重点学科，6个省部级重点实验室（工程技术研究中心）。学院教学科研仪器设备总值 11293.5 万元，图书馆藏书约 123.18 万册。学院现有在编教职工 1002 人，其中专任教师729人，具有高级职称教师300余人。</string>
+
+</resources>

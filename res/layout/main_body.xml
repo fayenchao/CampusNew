@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center">
+    
+    <GridView 
+        android:id="@+id/gvAppGrid"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:numColumns="3"
+    	android:layout_centerInParent="true"
+    	android:verticalSpacing="40dp"
+    	android:listSelector="@drawable/app_grid_selector"
+        ></GridView>
+
+</RelativeLayout>
